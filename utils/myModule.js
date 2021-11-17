@@ -11,13 +11,13 @@ function addNumbers(num1, num2) {
 }
 
 const person = {
-    name: "John Doe",
-    age: 39,
-    foods: ['burgers', 'fries'],
+    name: "Blank Man",
+    age: 29,
+    foods: ['sushi', 'fries'],
     car: {
-        name: 'Tesla',
-        model: 'Model S',
-        year: 2020
+        name: 'ford',
+        model: 'f150',
+        year: 1990
     }
 }
 // run this function
@@ -34,7 +34,7 @@ class Human {
         this.name = name;
         this.age = age
         this.introduction = function () {
-            return 'Hi';
+            return 'sup!';
         }
     }
 }
